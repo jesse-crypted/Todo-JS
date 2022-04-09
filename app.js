@@ -4,7 +4,7 @@ const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
 
 //Event Listeners
-todoButton.addEventListener("submit", addTodo);
+todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteCheck);
 
 //Functions
